@@ -20,31 +20,18 @@ class ChatAndAddToCart extends StatelessWidget {
         color: Color(0xFFFCBF1E),
         borderRadius: BorderRadius.circular(30),
       ),
-      child: Row(
-        children: <Widget>[
-          SvgPicture.asset(
-            "assets/icons/chat.svg",
+      child: Center(
+        child: TextButton.icon(
+          onPressed: () {},
+          icon: SvgPicture.asset(
+            "assets/icons/shopping-bag.svg",
             height: 18,
           ),
-          SizedBox(width: kDefaultPadding / 2),
-          Text(
-            "Chat",
+          label: Text(
+            "Add to Cart",
             style: TextStyle(color: Colors.white),
           ),
-          // it will cover all available spaces
-          Spacer(),
-          FlatButton.icon(
-            onPressed: () {},
-            icon: SvgPicture.asset(
-              "assets/icons/shopping-bag.svg",
-              height: 18,
-            ),
-            label: Text(
-              "Add to Cart",
-              style: TextStyle(color: Colors.white),
-            ),
-          ),
-        ],
+        ),
       ),
     );
   }

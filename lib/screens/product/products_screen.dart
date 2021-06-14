@@ -13,7 +13,6 @@ class ProductsScreen extends StatelessWidget {
       body: Body(),
     );
   }
-
   AppBar buildAppBar() {
     return AppBar(
       elevation: 0,

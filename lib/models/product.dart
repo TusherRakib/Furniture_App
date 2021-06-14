@@ -32,4 +32,12 @@ List<Product> products = [
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
   ),
+  Product(
+    id: 10,
+    price: 39,
+    title: "Bar Stool Chair",
+    image: "assets/images/Item_4.png",
+    description:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+  ),
 ];
