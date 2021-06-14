@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
-
-import '../../../constants.dart';
-
+import 'package:furniture_app/constants.dart';
 class ChatAndAddToCart extends StatelessWidget {
   const ChatAndAddToCart({
     Key key,
   }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Container(
