@@ -21,15 +21,11 @@ class ChatAndAddToCart extends StatelessWidget {
         borderRadius: BorderRadius.circular(30),
       ),
       child: Center(
-        child: TextButton.icon(
+        child: TextButton(
           onPressed: () {},
-          icon: SvgPicture.asset(
-            "assets/icons/shopping-bag.svg",
-            height: 18,
-          ),
-          label: Text(
+          child: Text(
             "Add to Cart",
-            style: TextStyle(color: Colors.white),
+            style: TextStyle(color: Colors.black87,fontSize: 18.0),
           ),
         ),
       ),
